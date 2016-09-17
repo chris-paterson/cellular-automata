@@ -1,0 +1,21 @@
+$block-size: 8px;
+$active-color: #DCDCC8;
+$inactive-color: #323232;
+
+.row {
+    height: $block-size;
+    
+    div {
+        height: $block-size;
+        display: inline-block;
+        width: $block-size;
+        
+        &.active {
+            background-color: $active-color;
+        }
+    
+        &.inactive {
+            background-color: $inactive-color;
+        }
+    }
+}

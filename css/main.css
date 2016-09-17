@@ -1,0 +1,12 @@
+.row {
+  height: 8px; }
+  .row div {
+    height: 8px;
+    display: inline-block;
+    width: 8px; }
+    .row div.active {
+      background-color: #DCDCC8; }
+    .row div.inactive {
+      background-color: #323232; }
+
+/*# sourceMappingURL=main.css.map */
